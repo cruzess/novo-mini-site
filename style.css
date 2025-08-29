@@ -1,0 +1,183 @@
+body {
+
+
+
+  background-color: rgb(43, 43, 43);
+  color: #ffffff;
+
+
+
+
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+
+  /* Estilos para telas menores que 768px (tablets e celulares) */
+  body {
+    font-size: 14px;
+  }
+}
+
+container {
+  display: flex;
+  flex-direction: row;
+  /* Padrão */
+}
+
+@media (max-width: 500px) {
+  .container {
+    flex-direction: column;
+    /* Muda para coluna em telas menores */
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: rgb(180, 175, 164);
+}
+
+li {
+  background-color: rgb(60, 60, 60);
+  text-align: center;
+  list-style-type: none;
+  margin: 10px;
+}
+
+li {
+  display: inline-block;
+  font-size: 10px;
+  padding: 10px 20px
+}
+
+/* Inicio*/
+
+header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid white;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+.meu-nome {
+  color: rgb(252, 241, 241);
+  text-align: center;
+}
+
+section {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(60, 60, 60);
+  border-radius: 10px;
+  text-align: left;
+}
+
+/* Termina sobre */
+.contato {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 35vh;
+}
+
+.nome-topo {
+  color: rgb(240, 225, 225);
+}
+
+.formulario {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 45px;
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+section form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+form {
+  width: 400px;
+  margin: auto;
+display: flex;
+flex-direction: column;
+gap: 30px;
+
+}
+
+form div {
+display: flex;
+flex-direction: column;
+}
+
+
+form label {
+  margin-bottom: 5px;
+  color: rgb(252, 242, 242);
+  font-size: 20px;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  margin-bottom: 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(60, 60, 60);
+  color: rgb(250, 230, 194);
+}
+
+form button {
+  padding: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  margin-bottom: 20px;
+  transition: 1.3s;
+}
+
+form button:hover {
+  background-color: #e5f5f5;
+  border-radius: 16px;
+  color: rgb(224, 222, 222)
+}
+
+.comigo {
+  color: rgba(245, 245, 245, 0.932);
+  font-size: 20px;
+}
+
+footer img {
+  width: 40px;
+  height: 40px;
+}
+
+.ancora-footer {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.993);
+}
+
+.paragrafo-footer {
+  margin-top: 4px;
+}
